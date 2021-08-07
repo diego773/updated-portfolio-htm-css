@@ -1,8 +1,41 @@
-
-/* navbar name Diego */
-.navbar-brand {
-  font-family: 'Poppins', sans-serif;
-  color: rgb(110, 109, 109);
-  font-weight: 300px;
-  font-size: 30px;
+/* changes the whole screen color */
+.wrapper {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
 }
+
+/* tittle Diego */
+.name {
+  color: rgb(194, 191, 191);
+}
+
+/* tittle Diego hoover */
+.name:hover {
+  color: white;
+}
+
+/* nav link */
+.nav-link {
+  color: rgb(194, 191, 191);
+  font-size: 20px;
+}
+
+/* nav link hoover */
+.nav-link:hover {
+  color: white;
+}
+
+/* center name */
+.center-name {
+  color:white;
+}
+
+/* small intro paragraph */
+.introduction {
+  color: white;
+  transition-duration: 600ms;
+  opacity: 1;
+  transform: translate(0px);
+}
+
